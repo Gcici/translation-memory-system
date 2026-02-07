@@ -150,7 +150,7 @@ export function UserRecharge({ user }) {
             </div>
             {userProfile?.plan_expires_at && (
               <div>
-                <div style={{ fontSize: '13px', opacity: 0.8' }}>到期时间</div>
+                <div style={{ fontSize: '13px', opacity: 0.8 }}>到期时间</div>
                 <div style={{ fontSize: '16px', fontWeight: '600' }}>
                   {new Date(userProfile.plan_expires_at).toLocaleDateString('zh-CN')}
                 </div>
