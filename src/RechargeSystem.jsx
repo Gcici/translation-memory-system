@@ -145,7 +145,7 @@ export function UserRecharge({ user }) {
               <div style={{ fontSize: '24px', fontWeight: '600' }}>{userProfile?.ai_quota || 0} 次</div>
             </div>
             <div>
-              <div style={{ fontSize: '13px', opacity: 0.8' }}>人工翻译剩余</div>
+              <div style={{ fontSize: '13px', opacity: 0.8 }}>人工翻译剩余</div>
               <div style={{ fontSize: '24px', fontWeight: '600' }}>{userProfile?.human_quota || 0} 次</div>
             </div>
             {userProfile?.plan_expires_at && (
