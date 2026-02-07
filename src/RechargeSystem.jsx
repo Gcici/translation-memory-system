@@ -141,7 +141,7 @@ export function UserRecharge({ user }) {
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '16px' }}>
             <div>
-              <div style={{ fontSize: '13px', opacity: 0.8' }}>AI翻译剩余</div>
+              <div style={{ fontSize: '13px', opacity: 0.8 }}>AI翻译剩余</div>
               <div style={{ fontSize: '24px', fontWeight: '600' }}>{userProfile?.ai_quota || 0} 次</div>
             </div>
             <div>
